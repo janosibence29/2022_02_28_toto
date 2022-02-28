@@ -52,6 +52,7 @@ namespace _2022_02_28_toto
             this.textBox1.Size = new System.Drawing.Size(261, 20);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "12X12X12X12X12";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -71,6 +72,7 @@ namespace _2022_02_28_toto
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Nem megfelelő a karakterek száma (14)";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
