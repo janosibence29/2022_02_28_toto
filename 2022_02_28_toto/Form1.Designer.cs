@@ -72,7 +72,7 @@ namespace _2022_02_28_toto
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Nem megfelelő a karakterek száma (14)";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            //this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
