@@ -31,7 +31,7 @@ namespace _2022_02_28_toto
                 checkBox1.Checked = true;
             }
 
-            checkBox1.Text = $"Nem megfelelő a karakterek szám ({textBox1.Text.Length})"
+            checkBox1.Text = $"Nem megfelelő a karakterek szám ({textBox1.Text.Length})";
         }
     }
 }
